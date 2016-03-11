@@ -31,7 +31,7 @@ div {
   border: 1px solid chocolate;
 }
 
-.content {
+.content, .projects {
   padding: 0 1rem;
   margin: 0 auto;
   min-width: 37.5rem;
@@ -123,40 +123,54 @@ margin-top: 0.5rem;
 }
 
 /** RECENT WORK SECTION **/
-section .content{
+.recent-work{
   height: 30rem;
   text-align: center;
 }
 
-section h2 {
+.recent-work h2 {
   margin: 5rem 0 2.5rem 0;
   font-size: 1.9rem;
 }
 
-.projects-box {
-  width: 25%;
-  height: 25%;
-
+.project-box {
+    background-color: #bbbbbb;
+    width: 17vw;
+    height: 17vw;
+    display:inline-block;
+    margin:1em;
 }
-.projects a {
-text-decoration: none;
-  list-style-type: none;
-}
-
-.projects li {
-  display: inline-block;
-  text-decoration: none;
-  list-style-type: none;
-  margin: 0.75em;
-}
-
-.projects img {
-  max-width: 17.5rem;
-  height: auto;
-}
-
-section .work-meta {
-  color: #a2a2a2;
-  transition: all .4s ease 0s;
+.about-me, .karma-clone, .street-fighter {
+    width: 17vw;
+    height: 17vw;
+    color:black;
+    font-weight:bold;
+    text-align:center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    text-decoration: none;
+    border: 0.1rem solid #ccc;
 }
 
+.about-me {
+ background-image: url('../img/about-me-page.png'); 
+}
+
+.karma-clone {
+  background-image: url('../img/karma-clone-page.png');
+}
+
+.street-fighter {
+  background-image: url('../img/street-fighter-page.png');
+}
+
+.box h2 {
+  margin: 1em 0;
+  
+}
+.projects {
+    white-space:nowrap;
+    text-align:center;
+}
