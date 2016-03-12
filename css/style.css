@@ -47,6 +47,7 @@ nav {
   position: fixed;
   width: 100%;
   text-transform: uppercase;
+  border-bottom: 0.06em solid #aaa;
   z-index: 9999;
 }
 
