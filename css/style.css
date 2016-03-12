@@ -9,6 +9,9 @@ h3, h4, h5, h6, p, ol, ul, li {
   box-sizing: border-box;
 }
 
+div {
+  border: 1px solid #ddd;
+}
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -17,7 +20,6 @@ h3, h4, h5, h6, p, ol, ul, li {
 ol, ul {
   list-style-type: none;
   padding: 0;
-  
 }
 /** START OF CUSTOM STYLES **/
 
@@ -26,10 +28,6 @@ body, nav {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-
-div {
-  border: 1px solid gray;
-} 
 
 .content, .projects {
   padding: 0 1rem;
@@ -60,7 +58,7 @@ nav .logo {
   float: left;
   color: #171818;
   font-size: 1.25rem;
-  margin-top: 1.7rem;
+  margin-top: 1.49rem;
   letter-spacing: -.02rem;
 }
 nav .nav-menu {
@@ -113,7 +111,7 @@ header .content {
 }
 
 header .content h6 {
-  margin-top: 41rem;
+  padding-top: 41rem;
   font-size: 1.25rem;
   text-transform: uppercase;
 
@@ -121,6 +119,45 @@ header .content h6 {
 
 header p {
 margin-top: 0.5rem;
+}
+
+/** ABOUT ME SECTION **/
+section .content h2 {
+  text-align: center;
+  font-size: 1.9rem;
+  margin: 5rem 0 2.5rem 0;
+}
+
+section .profile-img {
+  max-width: 45rem;
+  margin: auto;
+  text-align: center;
+  padding: 0 0 1.5rem 0;
+}
+section .profile-img img {
+  width: 9vw;
+  height: 9vw;
+  margin: auto;
+  border-radius: 50%;
+  border: .3em solid #999;
+
+}
+section .content .about-me {
+  max-width: 45rem;
+  margin: auto;
+  text-align: left;
+  font-size: 1.1rem;
+}
+section .content p {
+  font-family: 'muli', sans-serif;
+  line-height: 1.75em;
+}
+
+section .content a {
+  color: #da82ac;
+  text-decoration: none;  
+  transition: all .4s ease 0s;
+  font-weight: 900;
 }
 
 /** RECENT WORK SECTION **/
@@ -176,16 +213,16 @@ margin-top: 0.5rem;
   color: #fbfbfb;
   padding: 20% 0 5% 0;
 }
+
 .excerpt a {
   color: #fbfbfb;
-
 }
+
 .box:hover .excerpt {
-  opacity: 45;
+  opacity: 90;
   background-color: rgba(0,0,0,.9);
   color: white;
 }
-
 
 /** Projects Background Images **/
 #about-me {
@@ -199,11 +236,5 @@ margin-top: 0.5rem;
 }
 /** ...........................**/
 
-.box h2 {
-  margin: 1em 0;
-  
-}
-.projects {
-    white-space:nowrap;
-    text-align:center;
-}
+
+ 
