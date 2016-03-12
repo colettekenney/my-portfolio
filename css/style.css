@@ -239,7 +239,8 @@ section .content h2 {
   background-image: url('../img/street-fighter-page.png');
 }
 #img {
-  background-color: #506e70;
+  color: white;
+  background-color: #1b2f38;
 }
 /** ...........................**/
 
