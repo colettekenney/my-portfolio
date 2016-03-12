@@ -109,19 +109,19 @@ header {
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 45.938rem;
+  height: 39.938rem;
   overflow: auto; 
 }
 
 header .content {
-  height: 45.938rem;
+  height: 39.938rem;
   color: white;
   text-align: center;
   font-weight: 300;
 }
 
 header .content h6 {
-  padding-top: 41rem;
+  padding-top: 35rem;
   font-size: 1.25rem;
   text-transform: uppercase;
 
