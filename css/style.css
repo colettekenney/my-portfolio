@@ -164,7 +164,10 @@ section .content a {
 
 section .content a:hover {
   color: #a2a2a2;
-  
+}
+
+section .content a:visited {
+  color: #a72b79;
 }
 /** RECENT WORK SECTION **/
 .projects{
