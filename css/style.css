@@ -62,6 +62,12 @@ nav .logo {
   margin-top: 1.49rem;
   letter-spacing: -.02rem;
 }
+
+nav .logo a {
+  color: #171818;
+  text-decoration: none;
+}
+
 nav .nav-menu {
   float: right;
   color: #aaa;
@@ -86,7 +92,7 @@ nav .nav-menu li.active {
   font-weight: 500;
 }
 
-nav .nav-menu li:hover {
+nav a:hover {
   cursor: pointer;
   color: #da82ac;
 }
