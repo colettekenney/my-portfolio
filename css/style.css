@@ -9,9 +9,9 @@ h3, h4, h5, h6, p, ol, ul, li {
   box-sizing: border-box;
 }
 
-div {
+/**div {
   border: 1px solid #ddd;
-}
+}**/
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -220,6 +220,7 @@ section .content h2 {
 
 .excerpt a {
   color: #fbfbfb;
+  font-size: 2rem;
 }
 
 .box:hover .excerpt {
@@ -239,7 +240,7 @@ section .content h2 {
   background-image: url('../img/street-fighter-page.png');
 }
 #img {
-  color: white;
+  background-image: url('../img/coming-soon.png');
   background-color: #1b2f38;
 }
 /** ...........................**/
@@ -256,33 +257,68 @@ footer .social {
   width: 100%;
   height: 15rem;
   margin: auto;
-  margin-top: 1.7rem;
+  padding: 3rem 0;
   background-color: #1b1b1b;
 }
 
-footer .fa-icons {
-  display: block;
-  width: 37.5rem;
-  text-align: center;
-  color: #fbfbfb;
-  margin: 0 auto;
-}
-footer .fa-icons a {
-  border: 2px solid #616161;
-  border-radius: 50%;
-  display: inline-block;
-  letter-spacing: normal;
-  text-align: center;
-  width: 2.5rem;
-  height: 2.5rem;
+.icons {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
-footer .social .fa-icons {
-  color: #aaa;
-  font-size: 1.5rem;
+.icons ul {
+  clear: left;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
   text-align: center;
-  width: 1vw;
-  height: 1vw;
+}
+
+.icons ul li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0 1em;
+  padding: 0;
+  position: relative;
+  right: 50%;
+}
+
+.icons ul li a {
+  display: block;
+  margin: 1em -0.3rem;
+  padding: 0.68em;
+  color: #bcbcbc;
+  text-decoration: none;
+  line-height: 1.3em;
+  font-size: 1.1em;
+  border: 2px solid #616161;
   border-radius: 50%;
-  border-color: #aaa;
+  text-align: center;
+  width: 3rem;
+  height: 3rem;
+}
+
+.icons a i {
+  color: #fbfbfb;
+  font-size: 1.5rem;
+  line-height: 1;
+
+}
+.icons ul li a:hover {
+  background: #da82ac;
+  color: #fff;
+}
+
+#copyright {
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-size: .9rem;
+  color: #bcbcbc;
+  padding: 6rem 0 0;
  }
