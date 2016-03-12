@@ -135,11 +135,12 @@ section .profile-img {
   padding: 0 0 1.5rem 0;
 }
 section .profile-img img {
-  width: 9vw;
-  height: 9vw;
+  width: 12vw;
+  height: 12vw;
   margin: auto;
   border-radius: 50%;
-  border: .3em solid #999;
+  padding: .2em;
+  border: .3em solid #a2a2a2;
 
 }
 section .content .about-me {
@@ -160,6 +161,9 @@ section .content a {
   font-weight: 900;
 }
 
+section .content a:hover {
+  color: #a2a2a2;
+}
 /** RECENT WORK SECTION **/
 .recent-work{
   height: 30rem;
