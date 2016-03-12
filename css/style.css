@@ -92,6 +92,9 @@ nav .nav-menu li.active {
   font-weight: 500;
 }
 
+nav .nav-menu li a:hover {
+  color: #da82ac;
+}
 nav a:hover {
   cursor: pointer;
   color: #da82ac;
@@ -169,12 +172,10 @@ section .content a {
 }
 
 section .content a:hover {
-  color: #a2a2a2;
-}
-
-section .content a:visited {
   color: #a72b79;
 }
+
+
 /** RECENT WORK SECTION **/
 .projects{
   text-align: center;
