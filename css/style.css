@@ -32,7 +32,7 @@ body, nav {
 .content, .projects {
   padding: 0 1rem;
   margin: 0 auto;
-  min-width: 37.5rem;
+  min-width: 25rem;
   max-width: 75rem;
 }
 
@@ -323,3 +323,82 @@ footer .social {
   color: #bcbcbc;
   padding: 6rem 0 0;
  }
+
+ /** RESPONSIVE DESIGN **/
+@media screen and (max-width: 790px) {
+  nav > .content {
+  height: 3.375rem;
+}
+  nav .logo {
+    display: none;
+  }
+  nav .logo, nav .nav-menu {
+    font-size: 0.9rem
+  }
+  nav .nav-menu li a {
+  margin-left: -1rem;
+  }
+
+  header, header > .content {
+  height: 30rem;
+  }  
+
+  header .content h6 {
+  padding-top: 27rem;
+  font-size: 0.9rem;
+  }
+
+  header .content p {
+    font-size: 0.7rem;
+  }
+  
+  section .profile-img img {
+    width: 17vw;
+    height: 17vw;
+  }
+
+  section .content h2, footer h2 {
+    margin: 2rem 0 1.5rem 0;
+    font-size: 1.5rem;
+  }
+  section .content p {
+    font-size: 0.9rem;
+    line-height: 1.35rem;
+  }
+
+  section .content .about-me {
+    max-width: 30rem;
+  }
+  
+  .project-box {
+    margin: 0.5rem;
+  }
+
+  .excerpt {
+    font-size: 0.7rem;
+  }
+
+  .excerpt a {
+    font-size: 1rem;
+  }
+
+  footer .social {
+    height: 10rem;
+    padding: 2rem 0;
+  }
+  .icons a i {
+    font-size: 0.9rem;
+  }
+  
+  .icons ul li a {
+    padding: 0.38em;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  #copyright {
+    font-size: 0.8rem;
+    padding: 5rem 0 0;
+  }
+
+}
+
