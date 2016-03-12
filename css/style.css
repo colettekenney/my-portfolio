@@ -167,7 +167,6 @@ section .content a:hover {
 }
 /** RECENT WORK SECTION **/
 .projects{
-  height: 30rem;
   text-align: center;
 }
 
@@ -238,6 +237,9 @@ section .content h2 {
 }
 #street-fighter {
   background-image: url('../img/street-fighter-page.png');
+}
+#img {
+  background-color: #506e70;
 }
 /** ...........................**/
 
