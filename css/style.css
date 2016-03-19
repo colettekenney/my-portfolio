@@ -250,6 +250,10 @@ section .content h2 {
 #street-fighter {
   background-image: url('../img/street-fighter-page.png');
 }
+#shopping-list {
+  background-image: url('../img/shopping-list.png')
+}
+
 #img {
   background-image: url('../img/coming-soon.png');
   background-color: #1b2f38;
