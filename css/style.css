@@ -204,7 +204,7 @@ section .content h2 {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: auto;
+    overflow: hidden;
     text-decoration: none;
     border: 0.05rem solid #ccc;
 }
